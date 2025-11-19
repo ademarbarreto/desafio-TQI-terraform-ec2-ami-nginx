@@ -1,0 +1,12 @@
+.terraform/
+*.tfstate
+*.tfstate.*
+.terraform.lock.hcl
+*.pem
+*.pub
+*.zip
+*.backup
+*.log
+/.idea
+.vscode/
+.DS_Store
