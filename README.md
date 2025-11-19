@@ -89,10 +89,11 @@ Changes to Outputs:
 
 ## ▶️ Git / GitHub: passos para subir projeto público
 
-git init
+### ▶️ git init
 
-git status
-On branch master
+### ▶️ git status
+
+On branch main
 
 No commits yet
 
@@ -106,15 +107,68 @@ Untracked files:
         providers.tf
         userdata.sh
 
-git add .
+### ▶️ git add .
 
-git commit -m "Infra AWS Terraform EC2 + AMI + NGINX"
+### ▶️ git status
 
-git branch -M main
+On branch main
 
-git remote add origin https://github.com/SEU_USUARIO/terraform-ec2-ami-nginx.git
+No commits yet
 
-git push -u origin main
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   .gitignore
+        new file:   README.md
+        new file:   main.tf
+        new file:   nginx-cloud-init.sh
+        new file:   outputs.tf
+        new file:   providers.tf
+        new file:   userdata.sh
+        new file:   variables.tf
+
+### ▶️ git commit -m "Infra AWS Terraform EC2 + AMI + NGINX"
+
+[main (root-commit) 2e90f12] Infra AWS Terraform EC2 + AMI + NGINX
+
+ 8 files changed, 379 insertions(+)
+
+ create mode 100644 .gitignore
+
+ create mode 100644 README.md
+
+ create mode 100644 main.tf
+
+ create mode 100644 nginx-cloud-init.sh
+
+ create mode 100644 outputs.tf
+
+ create mode 100644 providers.tf
+
+ create mode 100644 userdata.sh
+
+ create mode 100644 variables.tf
+
+### ▶️ git branch -M main
+
+### ▶️ git push -u origin main
+
+Enumerating objects: 10, done.
+
+Counting objects: 100% (10/10), done.
+
+Delta compression using up to 12 threads
+
+Compressing objects: 100% (10/10), done.
+
+Writing objects: 100% (10/10), 4.22 KiB | 4.22 MiB/s, done.
+
+Total 10 (delta 0), reused 0 (delta 0), pack-reused 0
+
+To https://github.com/ademarbarreto/desafio-TQI-terraform-ec2-ami-nginx.git
+
+ * [new branch]      main -> main
+
+branch 'main' set up to track 'origin/main'.
 
 
 ## Passos rápidos
