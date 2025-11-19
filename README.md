@@ -173,24 +173,12 @@ branch 'main' set up to track 'origin/main'.
 
 ## Passos rápidos
 1. Gere uma chave SSH local: `ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""`
-2. Exporte variáveis de ambiente AWS ou configure via `aws configure`.
-
-## ▶️ Comandos Terraform para criar a infraestrura IaC
-
+2. Exporte variáveis de ambiente AWS ou configure via `aws configure`
 3. `terraform init`
 4. `terraform plan`
 5. `terraform apply`
-6. Resultado do output após o terraform apply:
-
-
-
-▶️ 7. Comandos Terraform para destruir ar a infraestrura IaC
-
 6. `terraform destroy`
 
-
-## Como a AMI é criada
-▶️ 7. Comandos Terraform para criar a infraestrura IaC
 
 
 
