@@ -171,7 +171,7 @@ To https://github.com/ademarbarreto/desafio-TQI-terraform-ec2-ami-nginx.git
 branch 'main' set up to track 'origin/main'.
 
 
-## Passos rápidos
+## ▶️ Passos rápidos
 1. Gere uma chave SSH local: `ssh-keygen -t rsa -b 4096 -f ~/.ssh/id_rsa -N ""`
 2. Exporte variáveis de ambiente AWS ou configure via `aws configure`
 3. `terraform init`
