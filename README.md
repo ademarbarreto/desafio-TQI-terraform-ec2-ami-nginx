@@ -179,6 +179,13 @@ branch 'main' set up to track 'origin/main'.
 5. `terraform apply`
 6. `terraform destroy`
 
+## ▶️ Resultado
+
+Após a criação da VM Ubuntu + NGNIX, foi gerada a imagem AMI que serviu de base para a criação da segunda VM.
+
+Ao acessar por http://54.221.138.10 e http://52.91.244.135, recebemos a seguinte mensagem abaixo, o que significa que as 2 VM´s estão com o NGNIX instalado, totalmente automatizado pelo Terraform, que é uma ferramente de Infraestrura com código. O ambiente que utilizei para este projeto foi através do WSL com uma instalação Ubuntu, integrado pelo VSCODE.
+
+![alt text](image.png)
 
 
 
