@@ -187,5 +187,10 @@ Ao acessar por http://54.221.138.10 e http://52.91.244.135, recebemos a seguinte
 
 ![alt text](image.png)
 
+As VM´s criadas com UBuntu + NGNIX foram:
 
+![alt text](image-1.png)
 
+A AMI criada foi:
+
+![alt text](ami-criada.png)
